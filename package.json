@@ -1,0 +1,42 @@
+{
+	"name": "qsql-vscode-extension",
+	"description": "QSQL 4 VS Code",
+	"version": "0.0.1",
+	"publisher": "oracle",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"activationEvents": [
+		"onLanguage:qsql"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"languages": [
+			{
+				"id": "qsql",
+				"extensions": [
+					".qsql",
+					".quicksql"
+				]
+			}
+		],
+		"grammars": [],
+		"commands": [
+			{
+				"command": "extension.toDDL",
+				"title": "Translate QSQL to DDL"
+			},
+			{
+				"command": "extension.fromJSON",
+				"title": "Translate JSON to QSQL"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.73.0"
+	},
+	"dependencies": {
+		"@oracle/quicksql": "^1.2.12"
+	}
+}
