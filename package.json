@@ -1,8 +1,8 @@
 {
-	"name": "qsql-vscode-extension",
-	"description": "QSQL 4 VS Code",
+	"name": "qsql-4-vscode",
+	"description": "QSQL VS Code extension",
 	"version": "0.0.1",
-	"publisher": "oracle",
+	"publisher": "vadim tropashko",
 	"engines": {
 		"vscode": "^1.74.0"
 	},
@@ -33,6 +33,10 @@
 		]
 	},
 	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Vadimtro/vscode-quicksql"
+	},
 	"devDependencies": {
 		"@types/vscode": "^1.73.0"
 	},
