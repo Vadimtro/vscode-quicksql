@@ -5,7 +5,7 @@ This extension equip `.qsql` and `.quicksql` files with
    - Syntax Highlighting
    - Syntax Error Checking
 
-The Command Palette features `Translate QSQL to DDL`, which execuresexecution would generate 
+The Command Palette features `Translate QSQL to DDL`, which execution would generate 
 DDL definitions in new `.sql` file.
 
 ## Experimental JSON to QSQL feature

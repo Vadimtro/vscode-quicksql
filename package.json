@@ -37,7 +37,13 @@
 		"type": "git",
 		"url": "git+https://github.com/Vadimtro/vscode-quicksql"
 	},
-	"devDependencies": {
+	"keywords": [
+		"Oracle",
+		"Quick SQL",
+		"SQL",
+		"DDL"
+	  ],
+		"devDependencies": {
 		"@types/vscode": "^1.73.0"
 	},
 	"dependencies": {
