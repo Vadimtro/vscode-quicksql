@@ -1,20 +1,14 @@
-# vscode-quicksql
- vscode extension for QSQL
+# VsCode extension for Quick SQL
 
-## Installation
+This extension equip `.qsql` and `.quicksql` files with 
+[Quick SQL Language](https://github.com/oracle/quicksql/blob/main/doc/user/quick-sql-grammar.md) sugarcoating:
+   - Syntax Highlighting
+   - Syntax Error Checking
 
-```bash
-npm install @oracle/quicksql
-```
+The Command Palette features `Translate QSQL to DDL`, which execuresexecution would generate 
+DDL definitions in new `.sql` file.
 
-## Run Extension
+## Experimental JSON to QSQL feature
 
-- Run -> Start Debugging (F5)
-- Run -> Run Without Debugging (^F5)
-
-In addition to usual language sugarcoating of .qsql files, the Command Palette 
-has command `Translate QSQL to DDL`. 
-
-## JSON to QSQL
-
-This is experimental feature of QSQL. Try opening json files, e.g. https://github.com/oracle/quicksql/blob/main/test/JSON/car_racing/2.json. Run the Command Palette `Translate JSON to QSQL`.
+Open a JSON file, e.g. https://github.com/oracle/quicksql/blob/main/test/JSON/car_racing/2.json. 
+Run the Command Palette `Translate JSON to QSQL`.

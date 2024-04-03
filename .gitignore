@@ -4,4 +4,4 @@ node_modules
 !.env*.example
 build
 package-lock.json
-
+qsql-4-vscode-*.vsix
