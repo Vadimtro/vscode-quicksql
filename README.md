@@ -9,5 +9,5 @@ npm install @oracle/quicksql
 
 ## Run Extension
 
-Run -> Start Debugging (F5)
-Run -> Run Without Debuggin (^F5)
+- Run -> Start Debugging (F5)
+- Run -> Run Without Debuggin (^F5)
